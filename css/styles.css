@@ -129,27 +129,27 @@ button {
 
 /* ============ Page Team Styles ============ */
 .page-team-sect {
-    background-color: #FFFFFF;
+    background-color: #f4f4fd;
 }
 
 .page-team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
 }
 
-.page-team-menu {
+.page-team-item {
     background-color: #FFFFFF;
 }
 
 .page-team-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -177,7 +177,7 @@ button {
 .page-portfolio-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
