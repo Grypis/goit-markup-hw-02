@@ -21,21 +21,21 @@ button {
 /* ============ /Common Styles ============ */
 
 /* ============ Page Header Styles ============ */
-.logo {
+.logo-header {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
-}
-
-.logo-first-part {
     color: #4d5ae5;
 }
 
-.menu-link {
+.logo-header-second {
+    color: #2e2f42;
+}
+
+.menu-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -60,6 +60,10 @@ button {
     color: #404bbf;
 }
 
+.page-address {
+    font-style: normal
+}
+
 .page-address-link {
     font-weight: 400;
     font-size: 16px;
@@ -82,7 +86,7 @@ button {
 .main-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -95,6 +99,11 @@ button {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+}
+
+.page-hero-btn:hover,
+.page-hero-btn:focus {
+    background-color: #404BBF
 }
 /* ============ /Page Hero Styles ============ */
 
@@ -119,20 +128,28 @@ button {
 /* ============ /Page Benefits Styles ============ */
 
 /* ============ Page Team Styles ============ */
+.page-team-sect {
+    background-color: #f4f4fd;
+}
+
 .page-team {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
 }
 
+.page-team-menu {
+    background-color: #FFFFFF;
+}
+
 .page-team-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -150,7 +167,7 @@ button {
 .page-portfolio {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -162,6 +179,7 @@ button {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .page-portfolio-text {
@@ -180,9 +198,13 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-footer-second {
     color: #f4f4fd;
 }
 
