@@ -21,7 +21,7 @@ button {
 /* ============ /Common Styles ============ */
 
 /* ============ Page Header Styles ============ */
-.logo-header {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -177,7 +177,7 @@ button {
 .page-portfolio-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
